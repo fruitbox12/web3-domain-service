@@ -14,7 +14,7 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 // You need to export an object to set up your config
 // Go to https://hardhat.org/config/ to learn more
 
-const {ALCHEMY_MUMBAI_URL, PRIVATE_KEY} = process.env;
+const {STAGING_ALCHEMY_KEY, PROD_ALCHEMY_KEY, PRIVATE_KEY} = process.env;
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */
